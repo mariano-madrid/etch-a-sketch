@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="text">
+            <span>Move the range bar to modify the squares per side:</span>
+            <input id="range" type="range" min="1" max="99" value="16" onchange="modifyGrid()">
+            <span id="rangeIndicator"></span>
+        </div>
+        <div id="container"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
